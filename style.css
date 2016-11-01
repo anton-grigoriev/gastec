@@ -10,3 +10,619 @@
 */
 
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&subset=cyrillic';
+
+body {
+ padding-top: 90px;
+}
+
+body, html, div, figure, p, ol, ul,
+h1, h2, h3, h4 {
+ font-family: "Roboto", sans-serif;
+}
+
+p {
+ font-size: 16px;
+ line-height: 1.6;
+}
+
+a {
+ text-decoration: underline;
+}
+
+.current-section {
+ padding-top: 100px;
+ transition: padding-top 500ms ease;
+}
+
+.page-title {
+ margin: 50px 0 30px 0;
+ font-size: 42px;
+ font-weight: 400;
+}
+
+.page-title:after {
+ content: '';
+ border-bottom: solid 3px #333;
+ display: block;
+ width: 50px;
+ padding-top: 20px;
+ right: 0;
+ left: 0;
+}
+
+.page-title-2 {
+ font-size: 36px;
+ font-weight: 400;
+ margin: 40px 0 30px 0;
+}
+
+.page-title-3 {
+ font-size: 21px;
+ font-weight: 500;
+}
+
+.page-title-4 {
+ font-size: 16px;
+ margin-top: 0;
+}
+
+.page-ol,
+.page-ul {
+ font-size: 16px;
+ padding-left: 25px;
+}
+
+.page-ul {
+ margin: 20px 0;
+}
+
+.page-ol li,
+.page-ul li {
+ margin-left: 0;
+ padding-bottom: 10px;
+}
+
+
+/* Header and navbar */
+
+.header-logo {
+ padding: 20px 0;
+}
+
+.my-nav {
+ margin: 0;
+}
+
+.my-nav-container {
+ background: rgba(255, 255, 255, 0.85);
+ box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+ padding: 0;
+ margin: 0;
+ height: 91px;
+}
+
+.my-nav > li {
+ float: left;
+}
+
+.my-nav > li > a {
+ box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+ padding: 5px 0px;
+ margin: 30px 20px;
+ text-transform: uppercase;
+ color: #555;
+ border:none;
+ font-weight: 700;
+ text-decoration: none;
+}
+
+.nav > li > a:hover, 
+.nav > li > a:focus,
+.nav > li > a:active,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open> a:focus,
+.nav .open> a:active {
+ background-color: transparent;
+ border:none;
+ text-decoration: none;
+ border-bottom: 4px solid #555;
+}
+
+
+
+/* Jumbotron */
+
+.jumbotron {
+ background-color: #f5f5f5;
+ border-bottom: 1px solid #eee;
+}
+
+.hero-text-container {
+ background-color: #555;
+ background-color: rgba(50,50,50,0.7);
+ padding: 25px;
+ margin: 15px 0;
+}
+
+.hero-text-container h1 {
+ color: #fff;
+ margin: 0 0 25px 0;
+ font-size: 45px;
+ font-weight: 400;
+}
+
+.hero-text-container h1:after {
+ content: '';
+ border-bottom: solid 4px #fff;
+ display: block;
+ width: 80px;
+ padding-top: 25px;
+ right: 0;
+ left: 0;
+}
+
+.hero-text-container p {
+ font-size: 18px;
+ font-weight: 400;
+ margin-bottom: 20px;
+ color: #fff;
+}
+
+.hero {
+ background-color: rgba(0, 0, 0, 0);
+ background-size: cover;
+ background-position: right bottom;
+ background-repeat: no-repeat;
+ background-image: url("img/gastec-man-warm.jpg");
+}
+
+.downloads {
+ background-color: #42a5f5;
+ padding: 10px;
+ margin: 20px 0;
+ text-align: center;
+}
+
+.downloads a {
+ text-transform: uppercase;
+ font-weight: 500;
+ color: #fff;
+ text-decoration: underline;
+}
+
+.downloads a:hover,
+.downloads a:focus,
+.downloads a:active {
+ color: #fff59d;
+}
+
+/* Front page */
+
+.front-page-h2 {
+ margin-bottom: 30px;
+}
+
+.tubes-row {
+ margin-bottom: 30px;
+} 
+
+.tubes-text {
+ padding: 0px 5px 10px 5px;
+ color: #424242;
+}
+
+.tubes-subheader {
+ font-size: 18px;
+ margin-top: 5px;
+ font-weight: 900;
+ color: #9e9e9e;
+}
+
+.tubes-list {
+ font-size: 16px;
+ color: #424242;
+ padding-left: 20px;
+ margin-bottom: 30px
+}
+
+.tubes-list-btn-container {
+ text-align: center;
+}
+
+.tubes-list-btn {
+ color: #fff;
+ text-decoration: none;
+ border-radius: 0;
+ padding: 10px 15px 10px 60px;
+ font-weight: 500;
+ box-shadow: 5px 10px 20px -8px rgba(0,0,0,0.3);
+ background: url(./img/icon_cloud-download_alt.svg) 4% 40% no-repeat #8bc34a;
+}
+
+.tubes-list-btn:focus,
+.tubes-list-btn:hover {
+ box-shadow: 5px 15px 30px -8px rgba(0,0,0,0.3);
+ color: #fff;
+ outline:none;
+ transform: scale(1.1, 1.1);
+ transition: box-shadow .1s ease-in-out, transform .1s ease-in-out;
+}
+
+.steps {
+ background-color: #f5f5f5;
+ padding: 30px 0 40px 0;
+ border: 0
+}
+
+.steps-h2 {
+ font-size: 36px;
+ font-weight: 900;
+ color: #9e9e9e;
+ margin: 0 0 15px 0;
+ }
+
+.steps p {
+ font-size: 16px;
+ font-weight: 400;
+}
+
+/* Category */
+
+.category-preview {
+ background-color: #90a4ae;
+ padding: 20px 0;
+ margin: 0 0 20px 0;
+}
+
+.category-preview p {
+ font-size: 14px;
+ color: #fff;
+ padding: 0 10px;
+}
+
+.category-header {
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 1.3em;
+ margin: 20px 0 10px 0;
+ min-height: 40px;
+ padding: 0 10px;
+ text-transform: uppercase;
+}
+
+.category-header-index {
+ font-size: 18px;
+ margin: 0 10px 10px;
+}
+
+.category-header a {
+ color: #757575;
+ border-bottom: 1px solid #757575;
+ text-decoration: none;
+}
+
+.category-header a:hover,
+.category-header a:focus,
+.category-header a:active {
+ text-decoration: none;
+ color: #424242;
+ border-bottom: 1px solid #424242;
+}
+
+.category-img { 
+ padding: 10px 20px;
+ }
+ 
+.category-excerpt {
+ font-size: 14px;
+ line-height: 1.6em;
+ margin-bottom: 40px;
+ padding: 0 10px;
+}
+
+ /* Pros */
+
+ .gradient {
+  color: #fff;
+  padding: 0;
+  min-height: 236px;
+  box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.3);
+  margin: 30px 0 50px 0;
+ }
+ 
+ .gradient h2 {
+  margin: 0 0 10px 0;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 21px;
+ }
+ 
+ .gradient p {
+  padding: 15px;
+ }
+ 
+ .gradient a {
+  color: #fff; 
+  text-decoration: underline;
+ }
+ 
+ .gradient-1 {background-color: #42a5f5;}
+ .gradient-1 h2 {background-color: #64b5f6;}
+ 
+ .gradient-2 {background-color: #009688;}
+ .gradient-2 h2 {background-color: #26a69a;}
+ 
+ .gradient-3 {background-color: #795548;}
+ .gradient-3 h2 {background-color: #8d6e63;}
+
+ /* reference */
+ 
+ .reference {
+  margin-bottom: 40px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #eee;
+ }
+ 
+ .reference-button-prev,
+ .reference-button-next  {
+   position: absolute;
+   top: 10%;
+   margin: 0;
+   padding: 0 3px;
+   z-index: 1001;
+   background-color: #fff;
+   font-size: 36px;
+   color: #2196f3;
+ }
+ 
+ .reference-button-prev:hover,
+ .reference-button-prev:focus,
+ .reference-button-next:hover, 
+ .reference-button-next:focus {
+  color: #2196f3;
+  outline: none;
+ }
+ 
+ .reference-button-prev:active,
+ .reference-button-next:active {
+  box-shadow: none;
+ }
+ 
+ 
+ .reference-button-prev {
+  left: 0px;
+ }
+ 
+ .reference-button-next {
+  right: 0px;
+ }
+ 
+ .reference-item {
+  float: left;
+  border:0;
+ }
+
+.reference-item img {
+ margin: 0 auto;
+ padding: 0 5px;
+}
+
+ /* Applications */
+ 
+ .applications {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+ }
+ 
+ .media-application {
+  min-height: 192px;
+ }
+ 
+ .media-index h3 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  padding: 0 5px;
+ }
+ 
+ .media-index p {
+  padding: 0 5px;
+  font-size: 14px;
+  line-height: 1.4;
+ }
+
+ .media-img {
+  width: 100px;
+  height: 100px;
+ }
+ 
+
+
+/* Sampling devices */
+
+
+.side-images > figure {
+ float: left; 
+ padding: 0 10px;
+ margin-bottom: 20px;
+}
+
+.fig-half {
+ width: 50%;
+}
+
+.fig-full {
+ width: 100%;
+}
+
+.fig-half > img,
+.fig-full > img {
+ margin: 0 auto;
+}
+
+.side-images > figure > figcaption {
+ font-style: italic;
+ padding: 7px 3px;
+ text-align: center;
+}
+
+.features {
+ padding: 10px;
+ background-color: #fafafa;
+ border: 1px solid #ddd;
+ margin-bottom: 30px;
+}
+
+.features h3 {
+ margin-top: 5px;
+ margin-bottom: 15px;
+}
+
+.features table {
+ margin-bottom: 5px;
+}
+
+.features table h4 {
+ font-weight: 500;
+ font-size: 16px;
+}
+
+.manual-pump {
+ width: 20%;
+ border-bottom: 2px solid #eee;
+}
+
+.manual-pump p {
+ font-size: 13px;
+ line-height: 1.3em;
+ padding: 10px 2px;
+}
+
+.accessoires h4 {
+ font-weight: 500;
+ font-size: 16px;
+ margin-top: 0;
+ padding-left: 10px;
+}
+
+.accessoires p {
+ font-size: 14px;
+ padding-left: 10px;
+}
+
+/* Footer */
+
+footer h3 {
+ font-size: 14px;
+ font-weight: 400;
+ text-transform: uppercase;
+}
+
+footer ul,
+address {
+ font-size: 12px;
+ line-height: 1.5em;
+ list-style: none;
+ padding-left: 0;
+}
+
+/* Tubes */
+
+.airtec-manual {
+ padding-top: 20px;
+}
+
+.airtec-manual img {
+ border: 1px solid #555;
+}
+
+.airtec-manual > div > h3 {
+ font-weight: 900;
+ color: #ccc;
+ padding: 0;
+}
+
+.airtec-manual > div > p {
+ font-size: 14px;
+ line-height: 1.4em;
+ padding: 0;
+}
+ 
+ /* Table for tubes list */
+
+ .tubes-table > thead > tr > td {
+  font-weight:500;
+  background-color: #f5f5f5;
+ }
+ 
+ .tubes-table > thead > tr > td,
+ .tubes-table > tbody > tr > td:last-child,
+ .tubes-table > tbody > tr > td:nth-last-child(2),
+ .tubes-table > tbody > tr > td:nth-last-child(3),
+ .tubes-table > tbody > tr > td:nth-last-child(4) {
+  text-align:center;
+ }
+ 
+ .tubes-table > tbody > tr > td,
+ .tubes-table > thead > tr > td{
+  border-top: 1px solid #2196f3;
+ }
+ 
+ .tubes-table > tbody > tr:hover {
+  background-color: #e3f2fd;
+ }
+ 
+ .polytec-table {
+  font-size: 11px;
+  text-align: center;
+ }
+ 
+ .polytec-table tr:nth-child(odd) {
+  font-weight: 900;
+ }
+ 
+ .polytec-img {
+  margin: 20px 0;
+ }
+ 
+ /* Contact */
+
+.contact h3 {
+ font-size: 21px;
+ font-weight: 700;
+ color: #9e9e9e;
+}
+
+.contact p {
+ margin-bottom: 20px;
+}
+ 
+.city-block {
+ padding-left: 0;
+}
+ 
+ .feedback-form {
+  background-color: #90a4ae;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  color:#fff;
+ }
+ 
+ .feedback-form button {
+  border-radius: 0;
+  color: #90a4ae;
+ }
+ 
+ .form-title {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0px 0px 15px 0px;
+ }
+ 
+ .form-control {
+  border-radius: 0;
+ }

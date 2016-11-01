@@ -36,7 +36,7 @@
                             <span class="icon-bar"></span>
                          </button>
                          -->
-                            <a id="href-home" href="#home">
+                            <a href="/">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/gastec-logo.png" class="img-responsive header-logo">
                             </a>
                         </div>
