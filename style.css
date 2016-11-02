@@ -612,11 +612,6 @@ address {
   color:#fff;
  }
  
- .feedback-form button {
-  border-radius: 0;
-  color: #90a4ae;
- }
- 
  .form-title {
   font-size: 28px;
   font-weight: 500;
@@ -626,3 +621,28 @@ address {
  .form-control {
   border-radius: 0;
  }
+
+.has-error .help-block {
+  color: #fff176;
+ }
+
+ .wpcf7-submit {
+  border-radius: 0;
+  color: #90a4ae;
+ }
+
+ .wpcf7-mail-sent-ok,
+ .wpcf7-validation-errors {
+  background-color: #fff;
+  color: #90a4ae;
+  font-weight: 500;
+  padding: 15px;
+  margin: 30px 0 10px 0;  
+  border-radius: 0;
+  border: 0;
+ }
+
+ .wpcf7-validation-errors {
+  color: #8a6d3b;
+ }
+
