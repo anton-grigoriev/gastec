@@ -328,7 +328,7 @@ a {
  .gradient {
   color: #fff;
   padding: 0;
-  min-height: 236px;
+  min-height: 243px;
   box-shadow: 10px 10px 20px -8px rgba(0,0,0,0.3);
   margin: 30px 0 50px 0;
  }
@@ -646,3 +646,40 @@ address {
   color: #8a6d3b;
  }
 
+ @media (max-width: 992px) {
+  
+  .gradient h2 {
+   font-size: 16px;
+  }
+  
+  .gradient p {
+    padding: 14px;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  
+  .tubes-subheader {
+   padding: 0px 5px;
+  }
+  
+  .tubes-list {
+   padding-left: 25px;
+  }
+  
+  .steps p {
+   font-size: 14px;
+   line-height: 1.4em;
+  }
+  
+  .media-application {
+    min-height: 162px;
+   }
+  
+  .media-index h3 {
+   font-size: 16px;
+  }
+  
+  .contact h3 {
+    font-size: 18px;
+  }
+ }

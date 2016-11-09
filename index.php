@@ -12,8 +12,8 @@
 			<div class="col-md-12">
 				<h2 class="front-page-h2">Контактная информация</h2>
 			</div>
-			<div class="col-md-7 col-sm-12">
-				<div class="col-md-6 col-sm-6 city-block">
+			    			<div class="col-md-7">
+				<div class="col-md-6 city-block">
 					<h3>Санкт-Петербург</h3>
 					<p>197374, Санкт-Петербург,<br>
 					Торфяная дорога, д. 7, лит. Ф<br>
@@ -30,7 +30,7 @@
 					Тел./факс: <a href="tel:+78435675053">(843) 567-50-53</a><br>
 					Электронная почта: se@labdepot.ru</p>
 				</div>
-				<div class="col-md-6  col-sm-6 city-block">
+				<div class="col-md-6 city-block">
 					<h3>Москва</h3>
 					<p>107023, Москва,<br>
 					Семеновский пер., д. 15, оф. 108<br>
@@ -48,7 +48,7 @@
 					Электронная почта: krasnodar@labdepot.ru</p>
 				</div>
 			</div>
-			<div class="col-md-5 col-sm-12">
+			<div class="col-md-5">
 				<div class="feedback-form">
 					<h2 class="form-title">Отправить запрос</h2>
 					<form>

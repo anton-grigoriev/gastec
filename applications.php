@@ -16,7 +16,7 @@
 				while ( $the_branches_query->have_posts() ) {
 					$the_branches_query->the_post();
 						echo
-						'<div class="col-lg-4 col-md-6">
+						'<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="media-application">
 								<div class="media-left">'
 									 . get_the_post_thumbnail( $post_id, 'full', array('class' => 'media-object media-img') ) . 
