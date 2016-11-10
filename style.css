@@ -131,7 +131,15 @@ a {
  border-bottom: 4px solid #555;
 }
 
+li.current a {
+ color: #d84315;
+}
 
+li.current a:hover,
+li.current a:focus,
+li.current a:active {
+ border-bottom: 4px solid #d84315;
+}
 
 /* Jumbotron */
 
